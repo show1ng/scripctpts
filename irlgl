@@ -1,0 +1,7 @@
+wait(2.2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shponkr/scripctpts/main/tpforanautofarmnoonewillknowabt", true))()
+wait(4)
+local tpservice= game:GetService("TeleportService")
+local plr = game.Players.LocalPlayer
+
+tpservice:Teleport(game.PlaceId, plr)
